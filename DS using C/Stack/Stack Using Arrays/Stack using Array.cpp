@@ -2,7 +2,7 @@
 	C program for Stack Implementation [Array Version]
 	author= "Aditya Chandeliya"
 	
-	Constraints: Max size 5
+	Constraints: Max size 10
 */
 
 //Imports
