@@ -127,25 +127,6 @@ void createList(int item)
 	}
 }//End Create List
 
-/*
-	Algorithm for CreateList Method
-	
-	CreateList(item to be inserted during creation)
-	{
-		temp = Create Node of size Node Struct;
-		insert the item in data field;
-		mark link field as Null;
-		
-		if(The origin of LinkedList is Null, ie There is No Existing Linklist present)
-			Store address of temp to start
-		else
-			Treverse upto last Node of existing linkedlist;
-				store the address of temp to in link field of last element;
-		
-		
-	}
-
-*/
 
 //Display List
 void displayList()
@@ -164,14 +145,6 @@ void displayList()
 	printf("\n");
 }//End Display List
 
-/*
-	Algorithm for  displayList
-	
-	voidList()
-	{
-		
-	}
-*/
 
 //Add Element at beginning
 void addBegin(int item)
